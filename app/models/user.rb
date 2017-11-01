@@ -5,5 +5,5 @@ class User < ApplicationRecord
 		class_name: "User",
 		join_table: :followers,
 		foreign_key: :user_id,
-		assocation_foreign_key: :follower_user_id
+		association_foreign_key: :follower_user_id
 end
